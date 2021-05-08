@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {BgColorModule} from './shared/bg-color/bg-color.module';
 import {AlertModule} from './shared/alert/alert.module';
+import {ConsoleLogModule} from './shared/console-log/console-log.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {AlertModule} from './shared/alert/alert.module';
     BrowserModule,
     AppRoutingModule,
     BgColorModule,
-    AlertModule
+    AlertModule,
+    ConsoleLogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
